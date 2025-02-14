@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Camera` component with a custom `onBarCodeScanned` function.  The issue is that the `onBarCodeScanned` function isn't consistently called when a barcode is scanned, especially if the barcode is scanned quickly or if there's some other event happening concurrently. This leads to missed scans and unreliable barcode reading.
